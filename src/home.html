@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bonding Over Basketball</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f172a;
+      color: #ffffff;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+      ),
+      url("https://images.unsplash.com/photo-1519861531473-9200262188bf");
+      background-size: cover;
+      background-position: center;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #f97316;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* Section */
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #f97316;
+      margin-bottom: 40px;
+    }
+
+    /* Cards */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #020617;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    /* CTA */
+    .cta {
+      background-color: #f97316;
+      color: #020617;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .cta h2 {
+      margin-bottom: 15px;
+    }
+
+    .cta a {
+      display: inline-block;
+      background-color: #020617;
+      color: #ffffff;
+      padding: 12px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #020617;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+  <nav style="margin-bottom: 30px;">
+    <a href="home.html" style="margin: 0 15px; color: #fff; text-decoration: none;">Home</a>
+    <a href="tournament.html" style="margin: 0 15px; color: #fff; text-decoration: none;">3x3 Tournament</a>
+  </nav>
+    <h1>Bonding Over Basketball</h1>
+    <p>
+      At Bonding Over Basketball Association, our mission is to elevate the game by building competitive platforms like Slam Island that unite communities, empower youth, and transform passion for basketball into opportunity, growth, and lifelong brotherhood
+    </p>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>What We Do</h2>
+    <div class="cards">
+      <div class="card">
+        <h3> <a href="tournament.html">🏀 Slam Island 3x3</a></h3>
+        <p>Fast-paced, high-energy competitions for hoopers of all levels and all ages.</p>
+      </div>
+
+      <div class="card">
+        <h3>🤝 Community</h3>
+        <p>Connect with players, teams, and fans who live basketball.</p>
+      </div>
+
+      <div class="card">
+        <h3>🔥 Events</h3>
+        <p>Music, style, rivalry, and respect — on and off the court.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta">
+    <h2>Ready to Run the Court?</h2>
+    <p>Join our next tournament or become part of the association.</p>
+    <a href="#">Join Us</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Bonding Over Basketball · All Rights Reserved
+  </footer>
+
+</body>
+</html>
